@@ -1,0 +1,27 @@
+
+# app-config.yaml
+
+# Application Configuration
+
+# Server address for connecting to the backend
+server_address: http://api.example.com
+
+# API key for authenticating requests
+api_key: your_api_key_here
+
+# Database connection details
+database:
+  host: db.example.com
+  port: 5432
+  username: db_user
+  password: db_password
+  name: app_database
+
+# Other configuration settings
+logging:
+  level: info
+  file_path: /var/log/app.log
+
+feature_flags:
+  enable_feature1: true
+  enable_feature2: false
